@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: expense-tracker
+  description: Expense Tracker Project
+  annotations:
+    github.com/project-slug: samjs-openchoreo-demo-2025-04/expense-tracker
+    # backstage.io/kubernetes-label-selector: 'core.choreo.dev/organization=default-org,core.choreo.dev/name=expense-tracker'
+    backstage.io/kubernetes-id: expense-tracker
+  tags:
+    - openchoreo
+    - project
+  links:
+    - url: https://github.com/samjs-openchoreo-demo-2025-04/expense-tracker
+      title: GitHub Repo
+      icon: github
+    - url: https://github.com/openchoreo/openchoreo
+      title: OpenChoreo
+      icon: web
+spec:
+  owner: guests
